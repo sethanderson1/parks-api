@@ -1,40 +1,51 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  button, input[type="text"] {
-    padding: 5px;
-  }
-  
-  button:hover {
-    cursor: pointer;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-  }
+  box-sizing: border-box;
+}
 
-  .label-wrapper {
-      width:200px
-  }
+body {
+  font-family: "Roboto", sans-serif;
+}
 
-  .states {
-      margin-bottom: 10px;
-  }
+button,
+input[type="text"] {
+  padding: 5px;
+}
 
-  #results-list {
-      list-style: none;
-  }
-  
-  .error-message {
-      color: red;
-  }
-  
-  .hidden {
-    display: none;
-  }
+button:hover {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.label-wrapper {
+  width: 200px;
+}
+
+.states {
+  margin-bottom: 10px;
+}
+
+#results-list {
+  list-style: none;
+  font-size: 1rem;
+}
+
+.error-message {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+/* this works.  */
+#results-list span {
+  font-weight: bold;
+}
+/* but not this */
+#results-list span {
+  font-weight: bold;
+}
