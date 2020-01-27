@@ -46,6 +46,6 @@ button:hover {
   font-weight: bold;
 }
 /* but not this */
-#results-list span {
+/* #results-list .bold {
   font-weight: bold;
-}
+} */
